@@ -1,0 +1,9 @@
+create local repo
+git init
+touch test.py
+git add test.py
+git status
+git commit - m "my first commit"
+git remote add origin "https://github.com/vivekit123/Devops1.git"
+git pull origin master
+git push origin master
